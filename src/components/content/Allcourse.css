@@ -1,0 +1,51 @@
+body{
+    background-color: #F3F3F3;
+    color: black;
+}
+.card{
+    width: 300px;
+    height: 385px;
+    border: 1px solid gray;
+    padding: 10px;
+    background-color: #F3F3F3;
+}
+
+.img{
+    margin-top: 5px;
+    width: 290px;
+}
+.course-name{
+    margin-top: -10px;
+}
+.course-des{
+
+    margin-top: -20px;
+    width: 290px;
+}
+.info{
+    margin-top: -22px;
+   
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn{
+    width: 290px;
+    height: 30px;
+    background-color: #2F80ED;
+    border-radius: 8px;
+    border: 1px solid #2F80ED;
+    color: white;
+    font: bolder;
+}
+
+.card-container{
+    display: flex;
+    width: 900px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.allcontainer{
+    display: flex;
+
+}
