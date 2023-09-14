@@ -1,22 +1,22 @@
 [
     {
-      "course_name": "Introduction to Programming",
+      "course_name": "Intro to Programming",
       "course_id" : 1,
       "picture": "https://media.istockphoto.com/id/1487907648/photo/multiracial-group-of-businesspeople-attending-a-conference-event.jpg?s=1024x1024&w=is&k=20&c=sud6kstIZsTejRUNS1M9KmuudVKd1znEMLu_T-WXRhQ=",
-      "description": "Learn the fundamentals of programming in this introductory course.",
+      "description": "Learn the fundamentals of programming in this course.",
       "price": 49.99,
       "credit_hour": 3
     },
     {
-      "course_name": "Web Development Fundamentals",
+      "course_name": "Web Development ",
       "course_id" : 2,
       "picture": "https://media.istockphoto.com/id/1366428092/photo/webinar-e-learning-skills-business-internet-technology-concepts-training-webinar-e-learning.jpg?s=1024x1024&w=is&k=20&c=jQfNIYSeD7rN0ImI1Z7BW7lmUL487RZ3QYMvYUQocnM=",
-      "description": "Master the basics of web development and create your own websites.",
+      "description": "Master the basics of web development and create websites.",
       "price": 79.99,
       "credit_hour": 4
     },
     {
-      "course_name": "Data Science Essentials",
+      "course_name": "Data Science ",
       "course_id" : 3,
       "picture": "https://media.istockphoto.com/id/1443245439/photo/business-meeting-businesswoman-woman-office-portrait-job-career-happy-businessman-teamwork.jpg?s=1024x1024&w=is&k=20&c=NPqjCnSKcneHXR85l-2ZV5SAe0a32eoTkIy5G0sZtgc=",
       "description": "Explore data analysis and machine learning with this essential course.",
@@ -24,7 +24,7 @@
       "credit_hour": 5
     },
     {
-      "course_name": "Graphic Design for Beginners",
+      "course_name": "Graphic Design ",
       "course_id" : 4,
       "picture": "https://media.istockphoto.com/id/1448479624/photo/talking-and-working-on-video-calling.jpg?s=1024x1024&w=is&k=20&c=_oEykFcg8Q3xzyMu-3J7qGUMlkYfa0zrY00mU7yQJaI=",
       "description": "Start your graphic design journey with this beginner-friendly course.",
@@ -32,7 +32,7 @@
       "credit_hour": 3
     },
     {
-      "course_name": "Financial Planning and Investment",
+      "course_name": "Financial Plann and Invest",
       "course_id" : 5,
       "picture": "https://media.istockphoto.com/id/1434947710/photo/businessman-headphones-and-laptop-webinar-in-office-with-coffee-on-table-video-call-or.jpg?s=1024x1024&w=is&k=20&c=NvC5p29pg1jBXw-IEzCTYg3Mv1A11k8BGVFqRw-DCDk=",
       "description": "Learn how to manage your finances and make smart investments.",
@@ -40,7 +40,7 @@
       "credit_hour": 4
     },
     {
-      "course_name": "Artificial Intelligence Fundamentals",
+      "course_name": "AI Fundamentals",
       "course_id" : 6,
       "picture": "https://media.istockphoto.com/id/1448479624/photo/talking-and-working-on-video-calling.jpg?s=1024x1024&w=is&k=20&c=_oEykFcg8Q3xzyMu-3J7qGUMlkYfa0zrY00mU7yQJaI=",
       "description": "Get introduced to the exciting world of artificial intelligence.",
@@ -72,10 +72,10 @@
       "credit_hour": 3
     },
     {
-      "course_name": "Business Ethics and Leadership",
+      "course_name": "Business Ethics and Lead",
       "course_id" : 10,
       "picture": "https://media.istockphoto.com/id/1413798537/photo/businesswomen-discussing-at-networking-event.jpg?s=1024x1024&w=is&k=20&c=_rbF3zcH2P_40BtvOmyoZUzAuCNUHbQxMiqMpyqbOVc=",
-      "description": "Develop your leadership skills and learn about ethical business practices.",
+      "description": "Develop your skills and learn about ethical business practices.",
       "price": 59.99,
       "credit_hour": 3
     },

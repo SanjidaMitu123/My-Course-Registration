@@ -13,13 +13,16 @@ body{
 .img{
     margin-top: 5px;
     width: 290px;
+    height: 190px;
 }
 .course-name{
-    margin-top: -10px;
+    margin-top: 4px;
+    width: 290px;
+    
 }
 .course-des{
 
-    margin-top: -20px;
+    margin-top: -10px;
     width: 290px;
 }
 .info{
@@ -40,7 +43,7 @@ body{
 
 .card-container{
     display: flex;
-    width: 900px;
+    width: 1020px;
     flex-wrap: wrap;
     gap: 10px;
 }
