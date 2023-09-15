@@ -4,7 +4,7 @@
       "course_id" : 1,
       "picture": "https://media.istockphoto.com/id/1487907648/photo/multiracial-group-of-businesspeople-attending-a-conference-event.jpg?s=1024x1024&w=is&k=20&c=sud6kstIZsTejRUNS1M9KmuudVKd1znEMLu_T-WXRhQ=",
       "description": "Learn the fundamentals of programming in this course.",
-      "price": 49.99,
+      "price": 49,
       "credit_hour": 3
     },
     {
@@ -12,7 +12,7 @@
       "course_id" : 2,
       "picture": "https://media.istockphoto.com/id/1366428092/photo/webinar-e-learning-skills-business-internet-technology-concepts-training-webinar-e-learning.jpg?s=1024x1024&w=is&k=20&c=jQfNIYSeD7rN0ImI1Z7BW7lmUL487RZ3QYMvYUQocnM=",
       "description": "Master the basics of web development and create websites.",
-      "price": 79.99,
+      "price": 79,
       "credit_hour": 4
     },
     {
@@ -20,7 +20,7 @@
       "course_id" : 3,
       "picture": "https://media.istockphoto.com/id/1443245439/photo/business-meeting-businesswoman-woman-office-portrait-job-career-happy-businessman-teamwork.jpg?s=1024x1024&w=is&k=20&c=NPqjCnSKcneHXR85l-2ZV5SAe0a32eoTkIy5G0sZtgc=",
       "description": "Explore data analysis and machine learning with this essential course.",
-      "price": 99.99,
+      "price": 99,
       "credit_hour": 5
     },
     {
@@ -28,7 +28,7 @@
       "course_id" : 4,
       "picture": "https://media.istockphoto.com/id/1448479624/photo/talking-and-working-on-video-calling.jpg?s=1024x1024&w=is&k=20&c=_oEykFcg8Q3xzyMu-3J7qGUMlkYfa0zrY00mU7yQJaI=",
       "description": "Start your graphic design journey with this beginner-friendly course.",
-      "price": 59.99,
+      "price": 59,
       "credit_hour": 3
     },
     {
@@ -36,7 +36,7 @@
       "course_id" : 5,
       "picture": "https://media.istockphoto.com/id/1434947710/photo/businessman-headphones-and-laptop-webinar-in-office-with-coffee-on-table-video-call-or.jpg?s=1024x1024&w=is&k=20&c=NvC5p29pg1jBXw-IEzCTYg3Mv1A11k8BGVFqRw-DCDk=",
       "description": "Learn how to manage your finances and make smart investments.",
-      "price": 89.99,
+      "price": 89,
       "credit_hour": 4
     },
     {
@@ -44,7 +44,7 @@
       "course_id" : 6,
       "picture": "https://media.istockphoto.com/id/1448479624/photo/talking-and-working-on-video-calling.jpg?s=1024x1024&w=is&k=20&c=_oEykFcg8Q3xzyMu-3J7qGUMlkYfa0zrY00mU7yQJaI=",
       "description": "Get introduced to the exciting world of artificial intelligence.",
-      "price": 79.99,
+      "price": 79,
       "credit_hour": 4
     },
     {
@@ -52,7 +52,7 @@
       "course_id" : 7,
       "picture": "https://media.istockphoto.com/id/1442212091/photo/smiling-students-talking-during-a-study-session-around-classroom-tables.jpg?s=1024x1024&w=is&k=20&c=jh8tSOy5YliWNXLnlZUjqcjzOBsMLwCakUq8rJGuX3s=",
       "description": "Become a skilled photographer with this comprehensive masterclass.",
-      "price": 69.99,
+      "price": 69,
       "credit_hour": 3
     },
     {
@@ -60,7 +60,7 @@
       "course_id" : 8,
       "picture": "https://media.istockphoto.com/id/1428206967/photo/3d-rendering-moving-racetrack-with-start-and-finish-line.jpg?s=1024x1024&w=is&k=20&c=qY3RHWfrh4L4HuUvVRnRqOcys0mrOSTqopgv_wAqGqE=",
       "description": "Learn the strategies and tactics for successful digital marketing.",
-      "price": 69.99,
+      "price": 69,
       "credit_hour": 4
     },
     {
@@ -68,7 +68,7 @@
       "course_id" : 9,
       "picture": "https://media.istockphoto.com/id/1413791618/photo/happy-colleagues-doing-team-building-activity.jpg?s=1024x1024&w=is&k=20&c=d4eHdhdcsk89ICv9bxgdIRxjDH8myCzanoMUwCpG7Qc=",
       "description": "Master advanced Excel functions and techniques for data analysis.",
-      "price": 49.99,
+      "price": 49,
       "credit_hour": 3
     },
     {
@@ -76,7 +76,7 @@
       "course_id" : 10,
       "picture": "https://media.istockphoto.com/id/1413798537/photo/businesswomen-discussing-at-networking-event.jpg?s=1024x1024&w=is&k=20&c=_rbF3zcH2P_40BtvOmyoZUzAuCNUHbQxMiqMpyqbOVc=",
       "description": "Develop your skills and learn about ethical business practices.",
-      "price": 59.99,
+      "price": 59,
       "credit_hour": 3
     },
     {
@@ -84,7 +84,7 @@
       "course_id" : 11,
       "picture": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
       "description": "Unleash your creativity with this hands-on creative writing workshop.",
-      "price": 39.99,
+      "price": 39,
       "credit_hour": 2
     }
   ]

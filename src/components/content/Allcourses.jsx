@@ -8,6 +8,10 @@ const Allcourses = () => {
 
     const [allcourses, setcourses] = useState([]);
     const [selectedcours, setselectedcourse] = useState([]);
+    const [resthour, setresthour] = useState (0);
+    const [totalprice,settotalprice] = useState (0);
+    const [totalcrhr,settotalcrhr] = useState (0);
+   
 
     useEffect(() => {
         fetch("./data.json")
@@ -15,14 +19,40 @@ const Allcourses = () => {
         .then((data) => setcourses(data));
 
     },[] )
-
+   let i=1;
     const selectcourse = (course) => {
         const similer = selectedcours.find(co => co.course_id == course.course_id);
+        let count = course.credit_hour;
+        let price = course.price;
         if(similer){
-            alert("you have took this course");
+           return alert("you have took this course");
         }
         else{
+
+            selectedcours.forEach(item => {
+               
+                count = count + item.credit_hour;
+                price = price + item.price;
+            })
+            const totalcrhr = count ;
+            const resthour = 20 - count 
+            const totalprice = price;
+            settotalprice(totalprice);
+            setresthour(resthour);
+            settotalcrhr(totalcrhr);
+
+            if(totalcrhr > 20 )
+            {
+             return alert ('sorry max credit hour 20');
+             
+            }
+
+            else
+            {
             setselectedcourse([...selectedcours, course]);
+
+            }
+           
         }
        
     };
@@ -54,7 +84,7 @@ const Allcourses = () => {
                 }           
             </div>
             <div className='cart'>
-               <Cart selectedcours={selectedcours}></Cart>   
+               <Cart selectedcours={selectedcours} resthour={resthour} totalprice={totalprice} totalcrhr={totalcrhr}></Cart>   
             </div>
             </div>
            
