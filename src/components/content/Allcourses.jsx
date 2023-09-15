@@ -2,10 +2,12 @@
 /* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from 'react';
 import "./Allcourse.css"
+import Cart from '../course/Cart';
 
 const Allcourses = () => {
 
-    const [allcourses,setcourses] = useState([]);
+    const [allcourses, setcourses] = useState([]);
+    const [selectedcours, setselectedcourse] = useState([]);
 
     useEffect(() => {
         fetch("./data.json")
@@ -14,12 +16,19 @@ const Allcourses = () => {
 
     },[] )
 
-    const selectcourse =(course) => {
+    const selectcourse = (course) => {
+        const similer = selectedcours.find(co => co.course_id == course.course_id);
+        if(similer){
+            alert("you have took this course");
+        }
+        else{
+            setselectedcourse([...selectedcours, course]);
+        }
+       
+    };
+    console.log(selectedcours);
 
-           console.log(course);
-    }
 
-console.log(allcourses);
     return (
         <div className='container'>
             <div className='allcontainer'>
@@ -45,7 +54,7 @@ console.log(allcourses);
                 }           
             </div>
             <div className='cart'>
-                  <h1>this is card</h1>
+               <Cart selectedcours={selectedcours}></Cart>   
             </div>
             </div>
            
