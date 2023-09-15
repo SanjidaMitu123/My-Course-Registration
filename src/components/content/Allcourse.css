@@ -2,10 +2,22 @@ body{
     background-color: #F3F3F3;
     color: black;
 }
+.remaimning-hr{
+    color: #2F80ED;
+    border-bottom: 2px sold black;
+}
+
 .card{
     width: 300px;
     height: 385px;
     border: 1px solid gray;
+    padding: 10px;
+    background-color: #F3F3F3;
+}
+.card1{
+    width: 100%;
+    
+    border: 1px solid  gray;
     padding: 10px;
     background-color: #F3F3F3;
 }

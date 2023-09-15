@@ -8,8 +8,8 @@ import React from 'react';
 const Cart = ({selectedcours,resthour,totalprice,totalcrhr}) => {
    
     return (
-        <div>
-            <h5>Credit Hour Remaining {resthour} hr</h5>
+        <div className='card1'>
+            <h3 className='remaimning-hr'>Credit Hour Remaining {resthour} hr</h3>
             <h1>Course Name</h1>
     
             <h5>Total Course :{selectedcours.length}</h5>

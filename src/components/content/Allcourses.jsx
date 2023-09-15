@@ -35,20 +35,24 @@ const Allcourses = () => {
                 price = price + item.price;
             })
             const totalcrhr = count ;
-            const resthour = 20 - count 
+            const resthour = 20 - count
+            if (resthour < 0)
+            {
+                return alert ('sorry max credit hour 20');
+                
+               }
+               else{
+
+              
+    
             const totalprice = price;
             settotalprice(totalprice);
             setresthour(resthour);
             settotalcrhr(totalcrhr);
 
-            if(totalcrhr > 20 )
-            {
-             return alert ('sorry max credit hour 20');
-             
-            }
-
-            else
-            {
+           
+          
+            
             setselectedcourse([...selectedcours, course]);
 
             }
