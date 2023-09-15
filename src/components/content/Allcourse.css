@@ -4,9 +4,13 @@ body{
 }
 .remaimning-hr{
     color: #2F80ED;
-    border-bottom: 2px sold black;
-}
+    border-bottom: 1px solid gray;
 
+  
+}
+.border{
+    border-bottom: 1px solid gray;
+}
 .card{
     width: 300px;
     height: 385px;
@@ -63,4 +67,15 @@ body{
 .allcontainer{
     display: flex;
 
+}
+.margin{
+    margin-top: 18px;
+}
+.cart-con{
+    text-align: left;
+    border-bottom: 1px solid gray;
+    
+}
+.coursetotaltitle{
+    margin-left: 40px;
 }
