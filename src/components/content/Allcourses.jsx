@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react';
 import "./Allcourse.css"
 import Cart from '../course/Cart';
 
+
 const Allcourses = () => {
 
     const [allcourses, setcourses] = useState([]);

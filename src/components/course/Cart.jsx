@@ -6,20 +6,23 @@ import React from 'react';
  
 // eslint-disable-next-line react/prop-types
 const Cart = ({selectedcours,resthour,totalprice,totalcrhr}) => {
-   
+   let i=1;
+  
     return (
         <div className='card1'>
             <h3 className='remaimning-hr'>Credit Hour Remaining {resthour} hr</h3>
-            <h1>Course Name</h1>
+            <h2>Course Name</h2>
     
             <h5>Total Course :{selectedcours.length}</h5>
             {selectedcours.map((course) =>(
-               <ol key={course.course_id}>{course.course_name}</ol>
+               <ol key={course.course_id}>{i++}.{course.course_name}</ol>
+               
             ))}
             <h3>Total Credit Hour :{totalcrhr}</h3>
            <h3>Total Price : {totalprice} USD</h3>
         </div>
     );
+   
 };
 
 export default Cart;
