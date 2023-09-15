@@ -3,6 +3,8 @@
 import React, { useEffect, useState } from 'react';
 import "./Allcourse.css"
 import Cart from '../course/Cart';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
@@ -21,13 +23,13 @@ const Allcourses = () => {
         .then((data) => setcourses(data));
 
     },[] )
-   let i=1;
+   
     const selectcourse = (course) => {
         const similer = selectedcours.find(co => co.course_id == course.course_id);
         let count = course.credit_hour;
         let price = course.price;
         if(similer){
-           return alert("you have took this course");
+           return toast("you have took this course");
         }
         else{
 
@@ -40,7 +42,7 @@ const Allcourses = () => {
             const resthour = 20 - count
             if (resthour < 0)
             {
-                return alert ('sorry max credit hour 20');
+                return toast('sorry max credit hour 20');
                 
                }
                else{
@@ -102,6 +104,7 @@ const Allcourses = () => {
 
                     </div>
                     <button onClick={()=>selectcourse(course)} className='btn'> Select </button>
+                    <ToastContainer />
                 </div>))
                 }           
             </div>
